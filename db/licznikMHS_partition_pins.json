@@ -1,0 +1,181 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "ot1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ot1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ot1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ot1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ot1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ot1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ot1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ot2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ot2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ot2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ot2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ot2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ot2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ot2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ot3[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ot3[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ot3[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ot3[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ot3[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ot3[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ot3[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ot4[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ot4[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ot4[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ot4[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ot4[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ot4[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ot4[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ot5[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ot5[1]",
+					"strict" : false
+				},
+				{
+					"name" : "ot5[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ot5[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ot5[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ot5[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ot5[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ot6[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ot6[2]",
+					"strict" : false
+				},
+				{
+					"name" : "ot6[3]",
+					"strict" : false
+				},
+				{
+					"name" : "ot6[4]",
+					"strict" : false
+				},
+				{
+					"name" : "ot6[5]",
+					"strict" : false
+				},
+				{
+					"name" : "ot6[6]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "clear",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

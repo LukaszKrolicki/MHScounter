@@ -1,0 +1,52 @@
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_unsigned.all;
+
+entity licznik60 is
+port (
+	clk:in bit;
+	clear: in bit;
+	ot1 : out std_logic_vector(6 downto 0);
+	ot2 : out std_logic_vector(6 downto 0;
+);
+end licznik60;
+
+architecture behaviour of licznik60 is
+signal sek_cnt: integer range 0 to 50000000;
+signal count1:  integer range 0 to 3600;
+signal num1: bit_vector(3 downto 0);
+signal num2: bit_vector(3 downto 0);
+
+entity displayHEX3 is
+port (
+i1 : in bit_vector(3 downto 0);
+o1 : out std_logic_vector(6 downto 0);
+i2 : in bit_vector(3 downto 0);
+o2 : out std_logic_vector(6 downto 0)
+);
+
+begin 
+	procedure(clk,clear)
+		begin
+		if(clear='1') THEN
+			count1<=0;
+			sek_cnt<=0;
+		elsif(clk'event and clk='1') THEN
+			sek_cnt<=sek_cnt+1;
+			if(sek_cnt>=50000000) THEN
+				sek_cnt<=0;
+				if(count>=3600) THEN
+					count<=0;
+				else
+					count<=count+1;
+				end if;
+			end if;
+		end if;
+	end procedure;
+	
+	num1<=bit_vector(to_unsigned(count mod 60, 4));
+	num2<=bit_vector(to_unsigned(count / 60, 4));
+	
+	gate:displayHEX3 port map(num1,ot1,num2,ot2);
+	
+end behaviour;
